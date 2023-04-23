@@ -1,0 +1,128 @@
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap');
+
+body {
+  color: white;
+  background-color: black;
+  margin :0px;
+  font-size :10px;
+  font-family: 'Barlow';
+}
+.page-label {
+  margin-top: 20px;
+  font-size: 1rem ;
+  margin-bottom : 40px ;
+}
+.page-label-container {
+  display: flex ;
+  justify-content: center;
+}
+audio {
+  margin: auto;
+  display: block;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #606060;
+  color: #333;
+  border-radius: 0px;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #25f2b5;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  width: 60px;
+  height: 5px;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: #25f2b5;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-current-time-display {
+  color: white;
+}
+
+h1 {
+  text-align :center ;
+}
+.audios-div {
+  margin-bottom :10px;
+}
+.audio-div {
+  display: flex ;
+  flex-direction :column ;
+  justify-content: center ;
+}
+
+
+}
+.bottom-link {
+  display: block;
+  text-align :center ;
+}
+.urll {
+  display:flex ;
+  justify-content :center ;
+}
+h3 {
+  text-align :center ;
+}
+
+.bottom-link:hover {
+  text-decoration : underline;
+}
+.links-container {
+  display : flex ;
+  flex-direction :column ;
+  justify-content :center ;
+  align-items :center ;
+  height : 80vh;
+}
+.links {
+  display: flex ;
+  justify-content :center ;
+  align-items :center ;
+  font-size :25px;
+  border : 2px solid #00f1f3;
+  border-radius :10px;
+  margin : 10px auto;
+  width :90%;
+  height : 7vh ;
+}
+.links:hover {
+  color : black;
+  background-color : #00f1f3;
+}
+img {
+  width : 35px;
+  height : 35px;
+  margin-left :7px;
+}
+a {
+  text-decoration :none ;
+  color :#00f1f3 ;
+}
+h4 {
+  font-size :18px;
+  text-align :center ;
+  font-family : 'Almarai';
+}
+video {
+  display:block;
+  width: 90%;
+  margin: 0px auto 10px auto;
+}
+h6 {
+  font-size : 16px;
+  text-align :center ;
+}
