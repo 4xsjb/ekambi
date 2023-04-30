@@ -126,3 +126,21 @@ h6 {
   font-size : 16px;
   text-align :center ;
 }
+.screen-message {
+  display :none;
+}
+@media (min-width :400px ){
+  .content {
+    display : none;
+  }
+  .screen-message {
+    display: flex ;
+    align-items :center ;
+    justify-content : center;
+    height :90vh;
+  }
+  .screen-message label {
+    font-size : 20px;
+    color: white;
+  }
+}
